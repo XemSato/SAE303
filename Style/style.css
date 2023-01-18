@@ -1,8 +1,22 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     
     color: white;
     position: relative;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: white;
 }
 @font-face{
     font-family: "Spec";
@@ -72,6 +86,7 @@ header{
 
 .none{
     display: none !important;
+    transition: 0.4s;
 }
 
 /* .nav>div>div:hover{
