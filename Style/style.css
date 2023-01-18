@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    
+    color: white;
+    position: relative;
+}
+@font-face{
+    font-family: "Spec";
+    src: url("../OriginalSurfer-Regular.ttf");
+}
+
+header{
+    background-color: #352F56;
+    padding: 25px;
+    font-family: Spec;
+}
+
+
+.fond{
+    background-image: url(../Img/Fond.jpg);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button{
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 18pt;
+    align-items: center;
+}
+
+.flexy{
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+
+
+.Part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Center{
+    text-align: center;
+}
+
+.nav{
+    border-right: red 1px solid;
+    padding: 20px;
+    width: 200px;
+}
+
+.P1{
+    background-color: #352F56;
+    font-size: 18pt;
+    border-radius: 20px;
+    width: max-content;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.background{
+    background-color: #562F36;
+}
+
+.none{
+    display: none !important;
+}
+
+/* .nav>div>div:hover{
+    background-color: #562F36;
+} */
+
+.Graph1{
+    height: 400px;
+    width: 800px;
+    /* background-color: rgb(139, 139, 139); */
+    margin-bottom: 100px;
+    
+}
+
+
+/* ---- particles.js container ---- */ 
+#particles-js{ 
+    position:fixed; 
+    top: 0; bottom: 0; left: 0; right: 0;
+    width: 100%; height: 100%; 
+    background-color: #000000; 
+    z-index: -10;
+    background-size: 20%; 
+    background-position: 50% 50%; 
+}
+
+.posi{
+    position: absolute;
+    top: 30px;
+    left: 980px;
+    
+}
+
+.posi2{
+    position: absolute;
+    top: 29px;
+    right: 100px;
+}
